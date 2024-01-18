@@ -272,7 +272,7 @@ h3 {
 .ul-tec {
     display: flex;
     flex-direction:column;
-    gap:10px;
+    gap:20px;
 }
 
 .il-tec {
@@ -281,6 +281,13 @@ h3 {
     color: rgb(230, 230, 230);
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     font-weight: 500;
+    
+}
+
+.ul-xp {
+    display: flex;
+    flex-direction:column;
+    gap:20px;
 }
 
 .box-1-3 {
@@ -330,9 +337,7 @@ button:hover {
 /*----------------------------------------------------------------------------------------------*/
 
 @media(max-width: 768px) {
-    .nav-heade {
-        gap: 10px;
-    }
+    
 
     .corpo {
         flex-direction: column;
@@ -364,7 +369,7 @@ button:hover {
     .ul-tec {
         display: flex;
         flex-direction:column;
-        gap:10px;
+        gap:14px;
     }
     
     .il-tec {
@@ -375,6 +380,19 @@ button:hover {
         font-weight: 500;
     }
     
+    .box-1-tec {
+        display: flex;
+        
+        gap: 10px;
+    }
+
+    .box-1-3 {
+   
+        width: 40%;
+        
+        margin-top: 1em;
+    }
+
     /* ------------------------------------------------------- */
 
     .div-principal {
@@ -448,17 +466,12 @@ button:hover {
 
     .text-header {
         
-        font-size: 18pt;
-        
-        
-        
+        font-size: 16pt;
     }
 
     .nav-header {
-       
-        gap: 50px;
-        
-       
+        gap: 46px;
+        align-items: center;
         
     }
 

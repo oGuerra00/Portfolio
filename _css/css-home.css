@@ -67,7 +67,7 @@ height: 2em;
 }
 
 .div-principal-box {
-    width: 70%;
+    width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -81,7 +81,7 @@ height: 2em;
     margin-top: 3em;
     gap: 3em;
     height: 3em;
-    width: 60%;
+    width: 100%;
 }
 
 .botao-div-principal {
@@ -96,7 +96,7 @@ border-radius: 18px;
 gap: 10px;
 font-family:'Courier New', Courier, monospace ;
 font-weight: 500;
-transition: 0.5s;
+transition: 1s;
 
 }
 
@@ -138,16 +138,18 @@ transition: 0.5s;
 }
 
 .botao-div-secundario {
-    border: 2px solid rgb(19, 196, 220);
-padding: 0.7em 2.2em;
-color: rgb(236, 236, 236);
-text-decoration: none;
-display: flex;
-align-items: center;
-font-size: 15pt;
-border-radius: 18px;
-font-family: serif;
-transition: 0.5s;
+    border: 2px solid rgb(1, 208, 255);
+    padding: 0.3em 2.5em;
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 15pt;
+    border-radius: 18px;
+    gap: 10px;
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: 500;
+    transition: 0.5s;
 }
 
 .botao-div-secundario:hover {
@@ -207,13 +209,11 @@ h3 {
     color: rgb(255, 255, 255);
     font-size: 17pt;
     text-align: center;
-   padding-bottom: 1em;
+    padding: 1em;
 }
 
 @media(max-width: 768px) {
-    .nav-heade {
-        gap: 10px;
-    }
+    
 
     .corpo {
         flex-direction: column;
@@ -230,11 +230,11 @@ h3 {
     }
 
     .paragrafo1 {
-        font-size: 12pt;
+        font-size: 11pt;
     }
 
     .p-destaque {
-        font-size: 16pt;
+        font-size: 14pt;
     }
 
     .p-rodape {
@@ -242,6 +242,8 @@ h3 {
         font-size: 14pt;
         
     }
+
+    
 
     /* ------------------------------------------------------- */
 
@@ -285,22 +287,29 @@ h3 {
 
     .rodape {
         height: 0;
-        padding: 1em;
+        padding: 0.4em;
         
     }
 
     .p-rodape {
         font-size: 0 .7em;
+        
     }
     /*--------------------------------------------------------------------------------*/
 
     .text-header {
         
-        font-size: 18pt;
+        font-size: 16pt;
     }
 
     .nav-header {
-        gap: 50px;
+        gap: 46px;
+        align-items: center;
+        
+    }
+
+    .logos-redes1 {
+        width: 30%;
     }
 
 }
