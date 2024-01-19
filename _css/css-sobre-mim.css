@@ -104,7 +104,7 @@ transition: 0.5s;
 
 .botao-div-principal:hover {
     background-color: rgba(193, 193, 193, 0.39);
-    padding: 0.5em 2.9em;
+    padding: 0.4em 2.6em;
     
 }
 
@@ -117,6 +117,7 @@ transition: 0.5s;
 
 .logos-redes1 {
     width: 40%;
+    margin-left: -0.9em;
 }
 /*-----------------------------------------------------------------------------------------------*/
 .div-secundaria {
@@ -153,7 +154,7 @@ transition: 0.5s;
 
 .botao-div-secundario {
     border: 2px solid rgb(19, 196, 220);
-padding: 0.7em 1.0em;
+padding: 0.5em 1.5em;
 color: rgb(236, 236, 236);
 text-decoration: none;
 display: flex;
@@ -161,13 +162,13 @@ align-items: center;
 font-size: 15pt;
 border-radius: 18px;
 font-family: serif;
-transition: 1s;
-gap: 10px;
+transition: 0.5s;
+gap: 15px;
 }
 
 .botao-div-secundario:hover {
     background-color: rgba(193, 193, 193, 0.39);
-    padding: 0.9em 1.2em;
+    padding: 0.6em 1.6em;
 }
 /*-----------------------------------------------------------------------------------------------*/
 h1 {
@@ -210,7 +211,7 @@ h2 {
     color: rgb(255, 255, 255);
     font-size: 17pt;
     text-align: center;
-    padding-bottom: 1em;
+    padding: 1em;
 }
 /*-----------------------------------------------------------------------------------------*/
 
@@ -242,7 +243,8 @@ h2 {
 
     .logos-redes1 {
         width: 27%;
-        margin-left: -0.5em;
+        margin-left: -0.9em;
+        
     }
 
     .botao-div-secundario {
@@ -288,6 +290,7 @@ h2 {
     .botao-div-secundario {
         width: auto;
         height: auto;
+        gap: 10px;
     }
 
     .rodape {
@@ -298,6 +301,7 @@ h2 {
 
     .p-rodape {
         font-size: 0 .7em;
+        padding: 1em;
     }
     /*--------------------------------------------------------------------------------*/
 

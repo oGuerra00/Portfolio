@@ -221,7 +221,7 @@ h3 {
     color: rgb(255, 255, 255);
     font-size: 17pt;
     text-align: center;
-    padding-bottom: 1em;
+    padding: 1em;
 }
 
 .p2-curriculo {
@@ -295,6 +295,8 @@ h3 {
     width: 40%;
     text-align: justify;
     margin-top: 1em;
+    gap: 20px;
+    flex-direction: column;
 }
 
 .box-1-4 {

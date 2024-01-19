@@ -37,7 +37,7 @@
 }
 
 .text-header:hover {
-    font-size: 22pt;
+    font-size: 21pt;
     color: rgb(244, 251, 255);
     text-decoration:underline;
 }
@@ -93,16 +93,16 @@ display: flex;
 align-items: center;
 font-size: 15pt;
 border-radius: 18px;
-gap: 10px;
+gap: 20px;
 font-family:'Courier New', Courier, monospace ;
 font-weight: 500;
-transition: 1s;
+transition: 0.5s;
 
 }
 
 .botao-div-principal:hover {
     background-color: rgba(193, 193, 193, 0.39);
-    padding: 0.5em 2.9em;
+    padding: 0.4em 2.6em;
     
 }
 
@@ -116,6 +116,12 @@ transition: 1s;
 .logos-redes1 {
     width: 40%;
 }
+
+.logos-redes1-home {
+    width: 38%;
+    margin-left: -1.4em;
+}
+
 /*-----------------------------------------------------------------------------------------------*/
 .div-secundaria {
     
@@ -139,10 +145,9 @@ transition: 1s;
 
 .botao-div-secundario {
     border: 2px solid rgb(1, 208, 255);
-    padding: 0.3em 2.5em;
+    padding: 0.5em 2.1em;
     color: rgb(236, 236, 236);
     text-decoration: none;
-    display: flex;
     align-items: center;
     font-size: 15pt;
     border-radius: 18px;
@@ -154,7 +159,7 @@ transition: 1s;
 
 .botao-div-secundario:hover {
     background-color: rgba(193, 193, 193, 0.39);
-    padding: 0.9em 2.9em;
+    padding: 0.6em 2.2em;
 }
 
 .titulo {
@@ -310,6 +315,11 @@ h3 {
 
     .logos-redes1 {
         width: 30%;
+    }
+
+    .logos-redes1-home {
+        width: 38%;
+        margin-left: -1em;
     }
 
 }
